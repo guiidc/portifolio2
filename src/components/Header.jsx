@@ -12,8 +12,8 @@ function Header () {
         <nav>
           <a href="#1">Sobre</a>
           <a href="#1">Projetos</a>
-          <a href="#1">Tecnologias</a>
           <a href="#1">Comentários</a>
+          <a href="#1">Tecnologias</a>
           <a href="#1">Contato</a>
         </nav>
       </div>

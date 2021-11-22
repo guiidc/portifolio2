@@ -29,6 +29,9 @@ html {
 .icon-medium {
   height: 3rem;
 }
+.icon-large {
+  height: 4rem;
+}
 
 .header-wrapper {
   display: flex;
@@ -210,6 +213,7 @@ nav a {
   border: 2px solid white;
   border-radius: 50px;
   padding: 0.6rem 1rem;
+  margin-top: 1rem;
 }
 
 .github-button img {
@@ -217,4 +221,47 @@ nav a {
 }
 .github-button span {
   font-size: 1.3rem;
+}
+
+.tech-title {
+  display: flex;
+  color: var(--primary-color);
+  gap: 1rem;
+}
+
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 4rem;
+}
+.tech {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 250px;
+  gap: 1rem;
+}
+.tech h4 {
+  font-size: 2rem;
+  color: var(--primary-color);
+  border-bottom: 2px solid var(--primary-color)
+}
+
+.tech ul {
+  color: var(--primary-color);
+  font-size: 1.6rem;
+  list-style: none;
+  text-align: center;
+}
+
+.tech ul li {
+  margin: 1rem;
+  font-weight: bold;
+}
+
+.tech:nth-child(2) {
+  border-left: 1px solid var(--primary-color);
+  border-right: 1px solid var(--primary-color);
 }
