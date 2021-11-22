@@ -17,11 +17,10 @@ html {
 }
 
 .header-wrapper {
-  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
+  padding: 2rem 5rem;
 }
 
 .header {
@@ -30,7 +29,7 @@ html {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1400px;
 }
 
 .logo {
@@ -41,6 +40,10 @@ html {
   "title title title title"
   "filler subtitle subtitle subtitle"
   ;
+}
+
+h3 {
+  font-size: 2.5rem;
 }
 
 .logo h1{
@@ -74,4 +77,75 @@ nav {
 
 nav a {
   color: var(--tertiary-color);
+}
+
+.hero-wrapper {
+  background: var(--secondary-color);
+  display: flex;
+  justify-content: center;
+  padding: 2rem 5rem;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1400px;
+}
+
+.hero-text {
+  color: var(--primary-color);
+}
+
+.hero-text h2 {
+  font-size: 3.5rem;
+  font-weight: 800;
+}
+.hero-text span {
+  font-size: 2.5rem;
+}
+
+.hero-links {
+  display: flex;
+  gap: 2.5rem;
+  margin-top: 2rem;
+}
+
+.hero-links img{
+  height: 3rem;
+}
+
+.rocket {
+  height: 30rem;
+}
+
+.about-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 3rem;
+}
+
+.perfil-img {
+  height: 12rem;
+  width: 12rem;
+}
+
+.about-title {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  color: var(--secondary-color);
+  gap: 0.5rem;
+}
+
+.about-title img  {
+  height: 3rem;
+}
+
+.about-wrapper p {
+  font-size: 1.8rem;
+  max-width: 500px;
+  text-align: center;
 }
