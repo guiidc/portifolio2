@@ -276,11 +276,15 @@ nav a {
 .quoter-img {
   border-radius: 50%;
   height: 12rem;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .quote-icon {
   position: relative;
   bottom: 70px;
   left: 15px;
+  z-index: 3000;
 }
 .quoter-name {
   font-size: 1.8rem;
