@@ -4,8 +4,8 @@ function Techonologys() {
   return (
     <div className="generic-wrapper bg-green">
       <div className="tech-title">
-        <h3>Algumas Tecnologias</h3>
         <img className="icon-medium" src="./icons/tech.svg" alt="technologys" />
+        <h3>Algumas Tecnologias</h3>
       </div>
       <div className="tech-grid">
         <div className="tech">

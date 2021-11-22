@@ -5,8 +5,8 @@ function Projects() {
   return (
     <div className="generic-wrapper bg-gray">
       <div className="projects-title">
-        <h3>Projetos Recentes</h3>
         <img className="icon-medium" src="./icons/box.svg" alt="projects" />
+        <h3>Projetos Recentes</h3>
       </div>
       <span>
         Quer conhecer um pouco mais?

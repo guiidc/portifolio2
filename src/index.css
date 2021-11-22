@@ -61,6 +61,7 @@ html {
 
 h3 {
   font-size: 2.5rem;
+  text-align: center;
 }
 
 .logo h1{
@@ -176,6 +177,7 @@ nav a {
   align-items: center;
   color: var(--secondary-color);
   gap: 0.5rem;
+  text-align: center;
 }
 
 .projects-title {
@@ -183,6 +185,7 @@ nav a {
   color: var(--secondary-color);
   gap: 1rem;
   justify-content: center;
+  text-align: center;
 }
 
 .cards {
@@ -235,6 +238,8 @@ nav a {
   display: flex;
   color: var(--primary-color);
   gap: 1rem;
+  text-align: center;
+
 }
 
 .tech-grid {
@@ -308,6 +313,7 @@ nav a {
   color: var(--primary-color);
   gap: 1rem;
   justify-content: center;
+  text-align: center;
 }
 
 .contact-form {
@@ -349,4 +355,99 @@ textarea {
 
 .footer h5 span {
   font-weight: bold;
+}
+
+/* BREAK POINTS */
+
+@media (max-width: 992px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem
+  }
+  .tech {
+    width: 200px
+  }
+  .rocket {
+    height: 25rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-text h2 {
+    font-size: 3rem;
+    font-weight: 800;
+  }
+  .hero-text span {
+    font-size: 2rem;
+  }
+  
+  .hero-links img{
+    height: 2.5rem;
+  }
+  
+  .rocket {
+    height: 20rem;
+  }
+  .header-wrapper {
+    display: none;
+  }
+}
+
+@media(max-width: 650px) {
+  .tech-grid {
+    grid-template-columns: 1fr;
+  }
+  .tech:nth-child(2) {
+    border-left: none;
+    border-right: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .cards {
+    grid-template-columns: 1fr;
+  } 
+  .card {
+    height: 125px;
+    width: 200px;
+  }
+  .rocket {
+    height: 18rem;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-links {
+    justify-content: center;
+  }
+
+  .about-title {
+    flex-direction: column;
+  }
+  .tech-title {
+    flex-direction: column;
+  }
+  .projects-title {
+    flex-direction: column;
+  }
+  .about-title {
+    flex-direction: column;
+    text-align: center;
+  }
+  .contact-form span {
+    text-align: left;
+  }
+  
+  .contact-form {
+    width: 25rem;
+  }
+  .footer {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  
+  
 }
