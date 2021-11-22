@@ -8,7 +8,11 @@ function About() {
         <h3>Quem é guilherme</h3>
         <img className="icon-medium" src="./icons/coffee.svg" alt="coffee icon" />
       </div>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti, veniam? Minima tempore maxime blanditiis, vero consequuntur ut distinctio sunt officiis aliquid, cum magnam ex quaerat, deleniti expedita porro dolo Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti, veniam? Minima tempore maxime blanditiis, vero consequuntur ut distinctio sunt officiis aliquid, cum magnam ex quaerat, deleniti expedita porro dolores commodi. res commodi.</p>
+      <p>
+        Desenvolvedor web, apaixonado por arte e tecnologia. Constantemente buscando soluções criativas e novos desafios
+        para aumentar suas habilidades de desenvolvedor. Acredita que foco, dedicação e disciplina sejam as suas maiores virtudes.
+        Procura manter-se curioso e atento a novos assuntos e tecnologias.
+      </p>
     </div>
   );
 }

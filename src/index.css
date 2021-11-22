@@ -124,7 +124,7 @@ nav a {
 .hero-links {
   display: flex;
   gap: 2.5rem;
-  margin-top: 2rem;
+  margin-top: 1.2rem;
 }
 
 .hero-links img{
@@ -143,10 +143,18 @@ nav a {
   padding: 5rem;
 }
 
-.generic-wrapper p, .generic-wrapper span{
+.generic-wrapper p {
+  font-size: 2rem;
+  max-width: 600px;
+  text-align: center;
+}
+.generic-wrapper span{
   font-size: 1.6rem;
   max-width: 600px;
   text-align: center;
+}
+.generic-wrapper span span {
+  color: var(--secondary-color)
 }
 
 .generic-wrapper span {
@@ -264,4 +272,77 @@ nav a {
 .tech:nth-child(2) {
   border-left: 1px solid var(--primary-color);
   border-right: 1px solid var(--primary-color);
+}
+.quoter-img {
+  border-radius: 50%;
+  height: 12rem;
+}
+.quote-icon {
+  position: relative;
+  bottom: 70px;
+  left: 15px;
+}
+.quoter-name {
+  font-size: 1.8rem;
+  color: var(--secondary-color);
+}
+
+.testimonials-control {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+#quote-counter {
+  color: var(--tertiary-color);
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.contact-title {
+  display: flex;
+  color: var(--primary-color);
+  gap: 1rem;
+  justify-content: center;
+}
+
+.contact-form {
+  grid-template-columns: 1fr 3fr;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 30rem;
+}
+
+.contact-form span {
+  text-align: left;
+}
+
+.contact-form input {
+  height: 3rem;
+  border-radius: 5px;
+  border: none;
+}
+
+textarea {
+  height: 20rem;
+  border-radius: 5px;
+  overflow: auto;
+}
+
+.footer {
+  height: 4rem;
+  background-color: var(--secondary-color);
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer h5 {
+  font-weight: normal;
+}
+
+.footer h5 span {
+  font-weight: bold;
 }

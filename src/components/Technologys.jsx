@@ -31,8 +31,9 @@ function Techonologys() {
         </div>
         <div className="tech">
           <img className="icon-large" src="./icons/test.svg" alt="tech" />
-          <h4>Jest</h4>
+          <h4>Testes</h4>
           <ul>
+            <li>Jest</li>
             <li>RTL</li>
             <li>Mocha</li>
             <li>Chai</li>
