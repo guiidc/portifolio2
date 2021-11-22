@@ -1,6 +1,8 @@
+import React from 'react';
+
 function Hero() {
   return (
-    <div className="hero-wrapper">
+    <div className="hero-wrapper bg-green">
       <div className="hero">
         <div className="hero-text">
           <h2>Seja bem vindo(a)</h2>

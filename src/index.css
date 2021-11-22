@@ -16,6 +16,20 @@ html {
   --tertiary-color: #323232;
 }
 
+.bg-green {
+  background-color: var(--secondary-color);
+}
+.bg-white {
+  background-color: var(--primary-color);
+}
+.bg-gray {
+  background-color: var(--tertiary-color);
+}
+
+.icon-medium {
+  height: 3rem;
+}
+
 .header-wrapper {
   display: flex;
   justify-content: center;
@@ -80,7 +94,6 @@ nav a {
 }
 
 .hero-wrapper {
-  background: var(--secondary-color);
   display: flex;
   justify-content: center;
   padding: 2rem 5rem;
@@ -119,13 +132,28 @@ nav a {
   height: 30rem;
 }
 
-.about-wrapper {
+.generic-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1.5rem;
-  padding: 3rem;
+  padding: 5rem;
 }
+
+.generic-wrapper p, .generic-wrapper span{
+  font-size: 1.6rem;
+  max-width: 600px;
+  text-align: center;
+}
+
+.generic-wrapper span {
+  color: white;
+}
+
+.generic-wrapper span a {
+  color: var(--secondary-color);
+}
+
 
 .perfil-img {
   height: 12rem;
@@ -135,17 +163,58 @@ nav a {
 .about-title {
   display: flex;
   align-items: center;
-  font-size: 2rem;
   color: var(--secondary-color);
   gap: 0.5rem;
 }
 
-.about-title img  {
-  height: 3rem;
+.projects-title {
+  display: flex;
+  color: var(--secondary-color);
+  gap: 1rem;
+  justify-content: center;
 }
 
-.about-wrapper p {
-  font-size: 1.8rem;
-  max-width: 500px;
+.cards {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 250px);
+  gap: 2rem;
+}
+
+.card {
+  background-color: var(--primary-color);
+  height: 150px;
+  width: 250px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.card-footer {
+  background-color: var(--secondary-color);
+  border-radius: 0 0 5px 5px;
+}
+
+.card-footer span {
+  color: var(--tertiary-color);
   text-align: center;
+  width: 100%;
+  display: block;
+  
+}
+.github-button {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border: 2px solid white;
+  border-radius: 50px;
+  padding: 0.6rem 1rem;
+}
+
+.github-button img {
+  height: 2.5rem;
+}
+.github-button span {
+  font-size: 1.3rem;
 }
