@@ -5,7 +5,7 @@ function Testimonials() {
     <div className="generic-wrapper bg-white">
       <h3>O que estão dizendo...</h3>
       <div className="testimonial-img">
-        <img className="quoter-img" src="../images/perfil.png" alt="quoter" />
+        <img className="quoter-img" src="../images/quoter1.png" alt="quoter" />
         <img className="quote-icon" src="../icons/quote.svg" alt="testimonial" />
       </div>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam dolores obcaecati labore ullam, beatae fugit laudantium debitis optio! Vero, hic odit. Quaerat, fuga quasi? Cum quisquam doloremque dignissimos ea similique!</p>

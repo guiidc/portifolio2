@@ -15,6 +15,7 @@ function Contact() {
         <input type="text" />
         <span>Assunto</span>
         <textarea style={ { resize: "none" } }/>
+        <button className="send-btn">Enviar</button>
       </div>
       <div className="hero-links">
         <a href="https://github.com/guiidc"><img src="./icons/github.svg" alt="github" /></a>
