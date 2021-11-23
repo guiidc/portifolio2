@@ -1,19 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
+import data from '../data/testimonials.json';
 
 function Testimonials() {
+  const [counter, setCounter ] = useState(0);
+
+  const nextQuote = () => {
+    counter === data.length - 1 ? setCounter(0) : setCounter(counter + 1);
+  };
+
+  const previousQuote = () => {
+    counter ? setCounter(counter - 1) : setCounter(data.length - 1);
+  }
   return (
     <div id="testimonials" className="generic-wrapper bg-white">
       <h3>O que estão dizendo...</h3>
       <div className="testimonial-img">
-        <img className="quoter-img" src="../images/quoter1.png" alt="quoter" />
+        <img className="quoter-img" src={data[counter].image} alt="quoter" />
         <img className="quote-icon" src="../icons/quote.svg" alt="testimonial" />
       </div>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam dolores obcaecati labore ullam, beatae fugit laudantium debitis optio! Vero, hic odit. Quaerat, fuga quasi? Cum quisquam doloremque dignissimos ea similique!</p>
-        <h4 className="quoter-name">-Guilherme da Costa</h4>
+        <p>{ data[counter].content }</p>
+        <h4 className="quoter-name">{ `- ${ data[counter].name }` }</h4>
         <div className="testimonials-control">
-          <img src="./icons/left-arrow.svg" alt="left arrow" />
-          <span id="quote-counter">1/4</span>
-          <img src="./icons/right-arrow.svg" alt="right arrow" />
+          <img onClick={ previousQuote } src="./icons/left-arrow.svg" alt="left arrow" />
+          <span id="quote-counter">{`${counter + 1}/${data.length}`}</span>
+          <img onClick={ nextQuote } src="./icons/right-arrow.svg" alt="right arrow" />
         </div>
     </div>
   );

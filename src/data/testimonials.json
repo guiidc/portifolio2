@@ -1,22 +1,22 @@
 [
   {
-    "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam dolores obcaecati labore ullam, beatae fugit laudantium debitis optio! Vero, hic odit. Quaerat, fuga quasi? Cum quisquam doloremque dignissimos ea similique!",
+    "content": "lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam dolores obcaecati labore ullam, beatae fugit laudantium debitis optio! Vero, hic odit. Quaerat, fuga quasi? Cum quisquam doloremque dignissimos ea similique!",
     "name": "Quoter",
-    "image": "./images/perfil.png"
+    "image": "../images/quoter1.png"
   },
   {
     "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam dolores obcaecati labore ullam, beatae fugit laudantium debitis optio! Vero, hic odit. Quaerat, fuga quasi? Cum quisquam doloremque dignissimos ea similique!",
     "name": "Quoter",
-    "image": "./images/perfil.png"
+    "image": "../images/quoter2.png"
+  },
+  {
+    "content": "lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam dolores obcaecati labore ullam, beatae fugit laudantium debitis optio! Vero, hic odit. Quaerat, fuga quasi? Cum quisquam doloremque dignissimos ea similique!",
+    "name": "Quoter",
+    "image": "../images/quoter3.png"
   },
   {
     "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam dolores obcaecati labore ullam, beatae fugit laudantium debitis optio! Vero, hic odit. Quaerat, fuga quasi? Cum quisquam doloremque dignissimos ea similique!",
     "name": "Quoter",
-    "image": "./images/perfil.png"
-  },
-  {
-    "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam dolores obcaecati labore ullam, beatae fugit laudantium debitis optio! Vero, hic odit. Quaerat, fuga quasi? Cum quisquam doloremque dignissimos ea similique!",
-    "name": "Quoter",
-    "image": "./images/perfil.png"
+    "image": "../images/quoter4.png"
   }
 ]
