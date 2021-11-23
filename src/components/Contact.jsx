@@ -21,7 +21,7 @@ function Contact() {
         <a href="https://github.com/guiidc"><img src="./icons/github.svg" alt="github" /></a>
         <a href="https://www.linkedin.com/in/guiidc/"><img src="./icons/linkedin.svg" alt="linkedin" /></a>
         <a href="#"><img src="./icons/email.svg" alt="email" /></a>
-        <a href="#"><img src="./icons/whatsapp.svg" alt="whatsapp" /></a>
+        <a href="https://api.whatsapp.com/send?phone=5547991447243"><img src="./icons/whatsapp.svg" alt="whatsapp" /></a>
       </div>
     </div>
   )

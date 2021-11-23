@@ -190,35 +190,50 @@ nav a {
 }
 
 .cards {
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(3, 250px);
-  justify-items: center;
-  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
 }
 
 .card {
-  background-color: var(--primary-color);
-  height: 150px;
-  width: 250px;
-  border-radius: 5px;
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  align-items: flex-start;
+  gap: 1rem
 }
 
-.card-footer {
+.card hr {
+  border: 1px solid white;
+  width: 100%
+}
+
+.card h3 {
+  color: var(--primary-color);
+  font-size: 2rem;
+  /* text-decoration: underline; */
+}
+
+.card p {
+  color: var(--primary-color);
+  font-size: 1.8rem;
+  text-align: left;
+}
+
+.card-button {
   background-color: var(--secondary-color);
-  border-radius: 0 0 5px 5px;
+  border: none;
+  margin-right: 1rem;
+  color: var(--primary-color);
+  /* height: 3rem; */
+  padding: 0.8rem;
+  border-radius: 5px;
+  min-width: 100px;
 }
 
-.card-footer span {
-  color: var(--tertiary-color);
-  text-align: center;
-  width: 100%;
-  display: block;
-  
+.card-button a {
+  color: var(--primary-color);
 }
+
 .github-button {
   display: flex;
   align-items: center;
@@ -380,10 +395,6 @@ textarea {
 /* BREAK POINTS */
 
 @media (max-width: 992px) {
-  .cards {
-    grid-template-columns: 1fr 1fr;
-    gap: 4rem
-  }
   .tech {
     width: 200px
   }
@@ -439,14 +450,6 @@ textarea {
     padding: 4rem;
   }
 
-  .cards {
-    grid-template-columns: 220px;
-    margin: 0 auto;
-  } 
-  .card {
-    height: 132px;
-    width: 250px;
-  }
   .rocket {
     height: 18rem;
   }
