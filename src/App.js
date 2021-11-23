@@ -6,10 +6,12 @@ import Projects from './components/Projects';
 import Techonologys from './components/Technologys';
 import Testimonials from './components/Testimonials';
 import Footer from './components/Footer'
+import MobileMenu from './components/MobileMenu';
 
 function App() {
   return (
     <div className="App">
+      <MobileMenu />
       <Header />
       <Hero />
       <About />

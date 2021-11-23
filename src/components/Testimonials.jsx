@@ -2,7 +2,7 @@ import React from 'react';
 
 function Testimonials() {
   return (
-    <div className="generic-wrapper bg-white">
+    <div id="testimonials" className="generic-wrapper bg-white">
       <h3>O que estão dizendo...</h3>
       <div className="testimonial-img">
         <img className="quoter-img" src="../images/quoter1.png" alt="quoter" />

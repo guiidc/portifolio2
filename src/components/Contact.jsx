@@ -2,7 +2,7 @@ import React from 'react';
 
 function Contact() {
   return (
-    <div className="generic-wrapper bg-gray">
+    <div id="contact" className="generic-wrapper bg-gray">
       <div className="contact-title">
         <h3>Contato</h3>
         <img className="icon-medium" src="./icons/message.svg" alt="message" />

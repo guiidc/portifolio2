@@ -10,11 +10,11 @@ function Header () {
           <div className="fill"></div>
         </div>
         <nav>
-          <a href="#1">Sobre</a>
-          <a href="#1">Projetos</a>
-          <a href="#1">Comentários</a>
-          <a href="#1">Tecnologias</a>
-          <a href="#1">Contato</a>
+          <a href="#about">Sobre</a>
+          <a href="#projects">Projetos</a>
+          <a href="#testmonials">Comentários</a>
+          <a href="#technologies">Tecnologias</a>
+          <a href="#contact">Contato</a>
         </nav>
       </div>
     </div>

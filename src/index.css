@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 * {
   margin: 0;
@@ -371,6 +372,11 @@ textarea {
   font-weight: bold;
 }
 
+.mobile-header-wrapper {
+  display: none;
+}
+
+
 /* BREAK POINTS */
 
 @media (max-width: 992px) {
@@ -405,6 +411,13 @@ textarea {
   .header-wrapper {
     display: none;
   }
+  .hero-wrapper {
+    margin-top: 5.3rem;
+    position: relative;
+  }
+  .mobile-header-wrapper {
+    display: flex;
+  }
 }
 
 @media(max-width: 650px) {
@@ -415,6 +428,10 @@ textarea {
     border-left: none;
     border-right: none;
   }
+  .contact-form {
+    width: 100%;
+  }
+
 }
 
 @media (max-width: 576px) {
@@ -460,12 +477,76 @@ textarea {
     text-align: left;
   }
   
-  .contact-form {
-    width: 25rem;
-  }
   .footer {
     font-size: 1.8rem;
     text-align: center;
     padding: 2rem;
   } 
+}
+
+.mobile-header-wrapper {
+  padding: 1rem 3rem;
+  position: fixed;
+  background-color: var(--primary-color);
+  width: 100%;
+  font-size: 0.8rem;
+  top: 0;
+  z-index: 3000;
+  flex-direction: column;
+}
+.mobile-menu {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  width:100%;
+  position: relative;
+}
+
+.mobile-menu button {
+  background-color: transparent;
+  border: none;
+}
+
+.mobile-header-wrapper img {
+  height: 3rem;
+}
+
+
+#mobile-nav {
+  flex-direction: column;
+  font-size: 2rem;
+  align-items: flex-start;
+  transition: all ease-in-out 0.3s;
+  overflow: hidden;
+  background: var(--primary-color);
+  transform-origin: bottom left;
+}
+
+#mobile-nav a {
+  margin-left: 1.5rem;
+  display: flex;
+}
+
+#mobile-nav a::before {
+  content: '';
+  height: 0.5rem;
+  width: 2rem;
+  background-color: #00E676;
+  position: relative;
+  top: 1rem;
+  right: 1rem;
+}
+
+.visible {
+  padding: 2rem 0rem;
+  visibility: visible;
+  height: 20rem;
+  opacity: 1;
+}
+
+.hidden {
+  padding:0rem;
+  height: 0;
+  visibility: hidden;
+  opacity: 0;
 }

@@ -3,7 +3,7 @@ import projects from '../data/projects.json';
 
 function Projects() {
   return (
-    <div className="generic-wrapper bg-gray">
+    <div id="projects" className="generic-wrapper bg-gray">
       <div className="projects-title">
         <img className="icon-medium" src="./icons/box.svg" alt="projects" />
         <h3>Projetos Recentes</h3>

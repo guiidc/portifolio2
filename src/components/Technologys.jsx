@@ -2,7 +2,7 @@ import React from 'react';
 
 function Techonologys() {
   return (
-    <div className="generic-wrapper bg-green">
+    <div id="technologies" className="generic-wrapper bg-green">
       <div className="tech-title">
         <img className="icon-medium" src="./icons/tech.svg" alt="technologys" />
         <h3>Algumas Tecnologias</h3>

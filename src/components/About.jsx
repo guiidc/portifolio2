@@ -2,7 +2,7 @@ import React from 'react';
 
 function About() {
   return(
-    <div className="generic-wrapper bg-white">
+    <div id="about" className="generic-wrapper bg-white">
       <img className="perfil-img" src="./images/perfil.png" alt="Guilherme da Costa" />
       <div className="about-title">
         <img className="icon-medium" src="./icons/coffee.svg" alt="coffee icon" />
