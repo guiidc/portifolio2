@@ -192,6 +192,7 @@ nav a {
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(3, 250px);
+  justify-items: center;
   gap: 2rem;
 }
 
@@ -239,9 +240,7 @@ nav a {
   color: var(--primary-color);
   gap: 1rem;
   text-align: center;
-
 }
-
 .tech-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -332,12 +331,14 @@ nav a {
   height: 3rem;
   border-radius: 5px;
   border: none;
+  padding: 1.5rem
 }
 
 textarea {
   height: 20rem;
   border-radius: 5px;
   overflow: auto;
+  padding: 1.5rem;
 }
 
 .footer {
@@ -404,12 +405,17 @@ textarea {
 }
 
 @media (max-width: 576px) {
+  .generic-wrapper {
+    padding: 4rem;
+  }
+
   .cards {
-    grid-template-columns: 1fr;
+    grid-template-columns: 220px;
+    margin: 0 auto;
   } 
   .card {
-    height: 125px;
-    width: 200px;
+    height: 132px;
+    width: 250px;
   }
   .rocket {
     height: 18rem;
@@ -447,7 +453,5 @@ textarea {
   .footer {
     font-size: 1.8rem;
     text-align: center;
-  }
-  
-  
+  } 
 }
